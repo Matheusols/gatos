@@ -1,0 +1,63 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.navbar{
+    padding: 10px 10px;
+}
+.navbar img{
+    width: 40px;
+}
+.nav-item .nav-link{
+    color: #FFF;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: rgb(85, 85, 85);
+    color: #FFF;
+}
+.nav-link{
+    text-align: center;
+}
+.navbar, footer{
+    background-color: rgb(185, 127, 79);
+    color: #FFF;
+}
+footer{
+    width: 100%;
+    padding: 5px 0;
+}
+body{
+    background-color: bisque;
+}
+.card{
+    margin: 10px 0;
+}
+.container .row{
+    margin-top: 15px;
+}
+#carousel-cat{
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#carousel-cat img{
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.carousel-text{
+    position: absolute;
+}
+footer{
+    padding-top: 20px;
+}
+footer h6{
+    text-align: center;
+}
+.row button, .carousel-item button{
+    background-color: rgb(185, 127, 79);
+    border: solid 0px;
+}
+.carousel-caption{
+    margin-bottom: 10px;
+}
